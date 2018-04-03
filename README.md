@@ -1,7 +1,7 @@
 # duVim
-crude, simple, naive, unsophisticated and unconsidered vim configuration
+crude, simple, naive, unsophisticated and unconsidered vim configuration from scratch
 
-##INSTALLATION
+## INSTALLATION
 ```
 ./install.sh
 :PlugInstall
