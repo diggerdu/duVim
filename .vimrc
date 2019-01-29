@@ -175,3 +175,5 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 call plug#begin('~/.vim/plugged')
 Plug 'davidhalter/jedi-vim'
 call plug#end()
+
+autocmd BufReadPost,FileReadPost,BufNewFile * call system("tmux rename-window " . expand("%"))
